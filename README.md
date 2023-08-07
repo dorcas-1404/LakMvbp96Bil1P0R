@@ -17,6 +17,9 @@ This repository aims to establish a robust intelligence that met the goal of  pr
 
 After comparison, the multivariate Prophet and SARIMAX model had the best performance in terms of accuracy, MAE, and MAPE. The Multivariate Prophet was the selected model with an MAE of 1.41 and MAPE Mean Absolute Percentage Error of around 0.005, the model is 99.9% accurate. Further evaluation was using the Bollinger Bands.
 
+![image](https://github.com/dorcas-1404/LakMvbp96Bil1P0R/assets/73675830/8553b5ab-50d2-4f99-acee-3f4e42e719ed)
+
+
 Project Organization
 ------------
 
