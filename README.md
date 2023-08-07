@@ -1,7 +1,21 @@
 ValueInvestor_Stock Price Prediction
 ==============================
 
-This is a stock price prediction system for portfolio companies trading data from emerging markets.
+This is a stock price prediction system for portfolio companies trading data from emerging markets. 
+This repository aims to establish a robust intelligence that met the goal of  predicting stock price valuations on a daily, weekly, and monthly basis and recommending BUY, HOLD, and SELL decisions. Here is my methodology:
+
+* Read and explore the data
+* Visualized data with multi plots techniques
+* Preprocessed the data
+* Used 4 different models for the modeling part:
+    * 1 additive regression model (Prophet by Facebook)
+    * 2 statistical models(ARIMA/ARIMAX and SARIMAX)
+    * 1 deep learning model (LSTM).
+* Compared forecasting results
+* Used Bollinger Bands technique to visualize my forecasting prices
+* Made recommendations to either Buy, Sell, or Hold.
+
+After comparison, the multivariate Prophet and SARIMAX model had the best performance in terms of accuracy, MAE, and MAPE. The Multivariate Prophet was the selected model with an MAE of 1.41 and MAPE Mean Absolute Percentage Error of around 0.005, the model is 99.9% accurate. Further evaluation was using the Bollinger Bands.
 
 Project Organization
 ------------
